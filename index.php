@@ -37,7 +37,7 @@ class DirectoryListing {
 
 	// If you've enabled the includeUrl parameter above, enter the full url to the directory the index.php file
 	// is located in here, followed by a forward slash.
-	public $directoryUrl = 'http://yoursite.com/main-directory-name-here/';
+	public $directoryUrl = 'https://agoficial.github.io/site-oficial/';
 
 	// Set to true to list all sub-directories and allow them to be browsed
 	public $showSubDirectories = true;
@@ -49,22 +49,22 @@ class DirectoryListing {
 	public $showThumbnails = true;
 
 	// Set to true to allow new directories to be created.
-	public $enableDirectoryCreation = true;
+	public $enableDirectoryCreation = false;
 
 	// Set to true to allow file uploads (NOTE: you should set a password if you enable this!)
-	public $enableUploads = true;
+	public $enableUploads = false;
 
 	// Enable multi-file uploads (NOTE: This makes use of javascript libraries hosted by Google so an internet connection is required.)
-	public $enableMultiFileUploads = true;
+	public $enableMultiFileUploads = false;
 
 	// Set to true to overwrite files on the server if they have the same name as a file being uploaded
 	public $overwriteOnUpload = false;
 
 	// Set to true to enable file deletion options
-	public $enableFileDeletion = true;
+	public $enableFileDeletion = false;
 
 	// Set to true to enable directory deletion options (only available when the directory is empty)
-	public $enableDirectoryDeletion = true;
+	public $enableDirectoryDeletion = false;
 
 	// List of all mime types that can be uploaded. Full list of mime types: http://www.iana.org/assignments/media-types/media-types.xhtml
 	public $allowedUploadMimeTypes = array(
