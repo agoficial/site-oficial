@@ -27,10 +27,10 @@ class DirectoryListing {
 	*/
 
 	// The top level directory where this script is located, or alternatively one of it's sub-directories
-	public $startDirectory = '.';
+	public $startDirectory = 'site-oficial';
 
 	// An optional title to show in the address bar and at the top of your page (set to null to leave blank)
-	public $pageTitle = 'Evoluted Directory Listing Script';
+	public $pageTitle = 'Página inicial';
 
 	// The URL of this script. Optionally set if your server is unable to detect the paths of files
 	public $includeUrl = false;
@@ -105,7 +105,7 @@ class DirectoryListing {
 	);
 
 	// Set to true to unzip any zip files that are uploaded (note - will overwrite files of the same name!)
-	public $enableUnzipping = true;
+	public $enableUnzipping = false;
 
 	// If you've enabled unzipping, you can optionally delete the original zip file after its uploaded by setting this to true.
 	public $deleteZipAfterUploading = false;
